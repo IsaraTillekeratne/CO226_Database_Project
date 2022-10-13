@@ -1,0 +1,135 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+.header{
+	width: 100%;
+	height: 80px;
+	display: block;
+	background-color: #101010;
+}
+
+.inner_header{
+	width: 1000px;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.logo_container{
+	height: 100%;
+	display: table;
+	float: left;
+}
+
+.logo_container h1{
+	color:white;
+	height: 100%;
+	display: table-cell;
+	vertical-align: middle;
+	font-family: 'Anton', sans-serif;
+	font-size: 32px;
+
+}
+
+.navigation{
+	float: right;
+	height: 100%;
+}
+
+.navigation a{
+	float: left;
+	height: 100%;
+	display: table;
+	padding: 0px 20px;
+
+}
+
+
+
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+/*
+.wrapper{
+	min-height: 100%;
+}
+*/
+body{
+	
+	background-color: #1c0c53;
+	/*background-image: url("stripes7.jpg");*/
+}
+
+section{
+	padding: 0 100px;
+	background-image: url("home.jpg");
+	/*background-image: url("stripes7.jpg");*/
+	height: 600px;
+	display: flex;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+
+.button {
+	background-color: #15064d; 
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 13px;
+  }
+
+.content{
+	position: relative;
+	max-width: 700px;
+	padding: 50px;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+
+.content h1{
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 44px;
+	text-transform: uppercase;
+	color: #101010;
+	font-style: bold;
+}
+
+.content p{
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+}
+
+
+.footer{
+	background: rgb(32, 30, 30);
+	color: white;
+	height: 200px;
+	position: relative;
+}
+
+.footer .footer-content{
+	
+	height: 200px;
+	display: flex;
+}
+
+.footer .footer-content .footer-section{
+	
+	flex: 1;
+	padding: 25px;
+}
+
